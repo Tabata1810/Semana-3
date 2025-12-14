@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Semana 3 TC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mi primera página web</h1>
+    <p><strong>Práctica</strong> de <em>HTML5</em></p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="inicio">
+    <article>
+        <h2>Introducción</h2>
+        <h3>HTML básico</h3>
+        <p>
+            Esta página fue creada para aprender 
+            <strong>etiquetas semánticas</strong> y 
+            <em>estructura web</em>.
+        </p>
+    </article>
+</section>
+
+<section id="contenido">
+    <h2>Multimedia</h2>
+    
+    <img src="assets/img/foto.jpg" alt="Imagen de ejemplo" width="250">
+
+    <video controls width="300">
+        <source src="assets/video/video.mp4" type="video/mp4">
+    </video>
+
+    <h3>Lista desordenada</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>GitHub</li>
+    </ul>
+
+    <h3>Lista ordenada</h3>
+    <ol>
+        <li>Crear archivos</li>
+        <li>Escribir código</li>
+        <li>Publicar</li>
+    </ol>
+
+    <h3>Tabla</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Elemento</th>
+                <th>Uso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Estructura</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Diseño</td>
+            </tr>
+            <tr>
+                <td>GitHub</td>
+                <td>Publicación</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="formulario">
+    <h2>Contacto</h2>
+
+    <form>
+        <label>Nombre:</label><br>
+        <input type="text"><br><br>
+
+        <label>Correo:</label><br>
+        <input type="email"><br><br>
+
+        <button>Enviar</button>
+    </form>
+
+    <p>
+        Visita:
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>Semana 3 TC - Semana 3</p>
+</footer>
+
+</body>
+</html>
